@@ -78,7 +78,7 @@
           },
           "sameAs": [
             "https://linkedin.com/in/isidorelalya",
-            "https://github.com/isidorelalya",
+            "https://github.com/Lalya-isidore",
             "https://facebook.com/isidorelalya"
           ]
         }
