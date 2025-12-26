@@ -1715,7 +1715,7 @@ textarea.form-control {
 
     /* Page Hero (About, Contact, etc) */
     .page-hero {
-        padding-top: var(--spacing-2xl);
+        padding-top: 130px;
         padding-bottom: var(--spacing-lg);
     }
 
