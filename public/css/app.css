@@ -1667,6 +1667,12 @@ textarea.form-control {
 
     .social-links-section {
         order: 5;
+        text-align: center;
+        margin-top: var(--spacing-lg);
+    }
+
+    .social-links-section .social-links {
+        justify-content: center;
     }
 
     .navbar-menu {
