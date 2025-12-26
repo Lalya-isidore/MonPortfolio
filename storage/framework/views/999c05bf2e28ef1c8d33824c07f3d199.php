@@ -77,9 +77,9 @@
             "addressCountry": "BJ"
           },
           "sameAs": [
-            "https://linkedin.com/in/isidorelalya",
+            "https://www.linkedin.com/in/isidore-lalya-b83a692a0",
             "https://github.com/Lalya-isidore",
-            "https://facebook.com/isidorelalya"
+            "https://www.facebook.com/isidore.lalya.750"
           ]
         }
       ]
