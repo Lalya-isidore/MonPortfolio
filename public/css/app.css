@@ -1643,6 +1643,32 @@ textarea.form-control {
         grid-template-columns: 1fr;
     }
 
+    /* Reorder Contact Page elements on Mobile */
+    .contact-info {
+        display: contents;
+    }
+
+    .contact-info h2 {
+        order: 1;
+    }
+
+    .contact-info>p {
+        order: 2;
+    }
+
+    .contact-form-wrapper {
+        order: 3;
+        margin-bottom: var(--spacing-2xl);
+    }
+
+    .contact-methods {
+        order: 4;
+    }
+
+    .social-links-section {
+        order: 5;
+    }
+
     .navbar-menu {
         position: absolute;
         top: 100%;
