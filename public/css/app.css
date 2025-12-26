@@ -1911,18 +1911,34 @@ textarea.form-control {
 
     .footer-content {
         grid-template-columns: 1fr;
-        gap: var(--spacing-lg);
+        gap: var(--spacing-xl);
         text-align: center;
         margin-bottom: var(--spacing-lg);
     }
 
     .footer-section h3,
     .footer-section h4 {
-        margin-bottom: var(--spacing-sm);
+        margin-bottom: var(--spacing-md);
+        font-size: 1.125rem;
+    }
+
+    .footer-section ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 320px;
     }
 
     .footer-section ul li {
-        margin-bottom: var(--spacing-xs);
+        margin-bottom: 0;
+    }
+
+    /* Center last item if odd number of links */
+    .footer-section ul li:last-child:nth-child(odd) {
+        grid-column: span 2;
     }
 
     .social-links {
