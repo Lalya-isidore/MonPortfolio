@@ -1713,6 +1713,15 @@ textarea.form-control {
         font-size: clamp(1.25rem, 5vw, 1.75rem);
     }
 
+    /* Page Hero (About, Contact, etc) */
+    .page-hero {
+        padding-bottom: var(--spacing-lg);
+    }
+
+    .about-main.section {
+        padding-top: var(--spacing-lg);
+    }
+
     .hero-image {
         display: none;
         /* Hide floating cards on mobile */
@@ -2253,6 +2262,7 @@ textarea.form-control {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
