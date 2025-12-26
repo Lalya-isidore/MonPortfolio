@@ -1715,10 +1715,14 @@ textarea.form-control {
 
     /* Page Hero (About, Contact, etc) */
     .page-hero {
+        padding-top: var(--spacing-2xl);
         padding-bottom: var(--spacing-lg);
     }
 
-    .about-main.section {
+    .about-main.section,
+    .projects-section,
+    .services-section,
+    .contact-section {
         padding-top: var(--spacing-lg);
     }
 
