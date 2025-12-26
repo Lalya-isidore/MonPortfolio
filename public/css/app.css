@@ -1439,9 +1439,12 @@ section {
 
 .contact-method {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-lg);
-    padding: var(--spacing-md);
+    padding: var(--spacing-xl);
     background: var(--color-bg-elevated);
     border-radius: var(--radius-lg);
     border: 1px solid rgba(255, 255, 255, 0.05);
